@@ -1,0 +1,330 @@
+/* Google Fonts */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+img{
+    width: 100%;
+    height: 90vh;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#menu{
+    display: flex;
+    justify-content: end;
+    background: rgba(0, 0, 0, 0.874);
+    height: 7vh;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  } */
+
+#index-image-div{
+    position: relative;
+  
+}
+
+#index-text-div{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    text-align: center;    
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.742);
+    border-radius: 10px;
+    /* animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: example; */
+}
+
+#index-text-div h1{
+    font-size: 80px;
+    font-weight: 1000;
+    color: #ce9c50;
+    font-family: "Protest Strike", sans-serif;
+    
+}
+
+#index-text-div p{
+    font-size: 30px;
+    color: black;
+    font-family: "Protest Strike", sans-serif;
+}
+
+#menu > .nav-menu{
+    text-decoration: none;
+    padding: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+
+
+}
+
+
+
+.about-div h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-indent: 10px;
+    margin-top: 10px;
+}
+
+body{background: white;}
+
+.active{
+    background: #ffc46a;
+}
+
+.about-div, .recipes-div{
+    height: 91vh;
+    margin-top: 2px;
+    background: #fcf0e2;
+}
+
+
+.about-intro{
+    font-size: 20px;
+    text-indent: 10px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.about-image{
+    width: 100%;
+    /* height: 80%; */
+}
+
+hr{
+    border: 2px solid black;
+    
+}
+
+/* RECIPE PAGE */
+
+#recipes-menu {
+    display: flex;
+    background: #ffe9c8;
+    align-items: center;
+    /* justify-content: center; */
+    height: 8vh;
+}
+
+
+#recipes-menu  a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* margin-top: 20px; */
+}
+
+#image-recipe-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+    align-content: center;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.893);
+    
+}
+
+#image-recipe-div img{
+    width: 430px;
+    height: 390px;
+    border: 4px solid white;
+}
+
+
+/* TESTIMONIAL PAGE */
+
+h3{
+    text-align: center;
+}
+
+.testy-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 10px;
+    justify-items: center;
+    align-content: center;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    height: 87vh;
+}
+
+#testy-card{
+    padding: 10px;
+    height: 37vh;
+    width: 250px;
+    box-shadow: 20px 20px 80px rgb(166, 166, 166);
+}
+
+#testy-card{
+    
+    p{
+        font-family: "Raleway", sans-serif;
+    }
+    
+    h3{
+        font-family: "Poppins", sans-serif;        
+    }
+}
+
+#testy-photo{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#testy-photo img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* CONTACT */
+
+#mail img, #map img, #phone img{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    background: #ffc46a;
+    margin-right: 50px;
+}
+
+#info-mail, #info-map, #info-phone{
+    p{
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+    }
+
+    h2{
+        text-decoration: underline;
+    }
+
+    a{
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+    }
+}
+
+.contact-div{
+    height: 87vh;
+    background: #ffe5c3;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+
+#discount{
+    padding: 20px;
+    background: #ffc46a;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+
+#chat, #office, #phone{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#event{
+    display: flex;
+    flex-direction: column;
+   
+
+    #event-head{
+        text-align: left;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        /* text-decoration: underline dotted; */
+    }
+
+    #event-para{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    background:#ec9514;
+    }
+}
+
+
