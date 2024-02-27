@@ -326,7 +326,7 @@ h3{
 @media (max-width: 480px) {
     img{
         width: 100%;
-        height: 88vh;
+        height: 87vh;
     }
 
     #index-image-div{
@@ -336,7 +336,7 @@ h3{
     
     #index-text-div{
         position: absolute;
-        top: 17 0px;
+        top: 200px;
         left: 80px;
         text-align: center;    
         padding: 10px;
@@ -391,7 +391,7 @@ h3{
         justify-content: start;
         align-items: center;
         width: 100%;
-        height: 75px;
+        height: 10vh;
         background: gray;
     }
 
@@ -406,7 +406,7 @@ h3{
         justify-content: start;
         align-items: center;
         width: 100%;
-        height: 75px;
+        height: 10vh;
         background: gray;
     }
 
