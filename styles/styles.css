@@ -324,6 +324,9 @@ h3{
 /* MEDIA QUERY FOR MOBILE */
 
 @media (max-width: 480px) {
+
+    /* HOME PAGE */
+
     img{
         width: 100%;
         height: 87vh;
@@ -413,6 +416,53 @@ h3{
     #cross-menu img{      
         width: 50px;
         height: 50px;
+    }
+
+    .active{
+        background: #ffc46a;
+    }
+
+   
+
+
+@media (max-width: 480px) {
+
+     /* ABOUT PAGE */
+
+     .active{
+        background: #ffc46a;
+    }
+
+  
+
+     .about-intro{
+        font-size: 15px;
+        text-indent: 10px;
+        margin-left: 10px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+    
+    .about-image{
+        width: 100%;
+        height: 42vh;
+    }
+
+
+    .about-div h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 2px;
+        text-indent: 10px;
+        margin-top: 10px;
+    }
+
+    hr{
+        border: 1px solid black;
+        
+    }
+
     }
 }
 
