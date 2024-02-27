@@ -1,6 +1,9 @@
 // const home = document.querySelector('a');
 // const active = home.setAttribute('class','active');
 const menu = document.getElementById('menu');
+const hambmenu = document.getElementById("hamb-menu");
+const crossmenu = document.getElementById("cross-menu");
+console.log(hambmenu)
 const navmenu = document.getElementsByClassName('nav-menu');
 
 const recipe_menu =document.getElementsByClassName('recipe-menu');
@@ -20,3 +23,33 @@ for(let i=0; i < navmenu.length; i++) {
         this.className += " active";
     })
 }
+menu.style.display = 'none';
+crossmenu.style.display = 'none';
+
+
+hambmenu.addEventListener('click', () => {
+
+    if(menu.style.display === 'none') {
+
+        menu.style.display = 'block';
+        hambmenu.style.display = 'none'
+        crossmenu.style.display = 'block'
+    }else{
+        crossmenu.style.display = 'none';
+        hambmenu.style.display = 'block';
+    }
+})
+
+
+crossmenu.addEventListener('click', () => {
+
+    if(menu.style.display === 'block') {
+
+        menu.style.display = 'none';
+        crossmenu.style.display = 'none'
+        hambmenu.style.display = 'block'
+    }else{
+        crossmenu.style.display = 'block'
+        hambmenu.style.display = 'none';
+    }
+})
